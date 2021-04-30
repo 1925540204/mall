@@ -1,0 +1,109 @@
+[22:54:17:271] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on 胡文龙的电脑 with PID 17048 (E:\IdeaProjects\Projects\mall\target\classes started by 胡文龙 in E:\IdeaProjects\Projects\mall)
+[22:54:17:274] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[22:54:18:142] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8083 (http)
+[22:54:18:151] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[22:54:18:152] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[22:54:18:152] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[22:54:18:240] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[22:54:18:240] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 902 ms
+[22:54:18:663] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[22:54:18:827] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[22:54:18:842] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8083 (http) with context path ''
+[22:54:18:845] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 1.85 seconds (JVM running for 3.672)
+[23:05:08:540] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[23:05:08:540] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[23:05:08:545] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 5 ms
+[23:05:08:589] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - arbor_mall_datasource - Starting...
+[23:05:09:404] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - arbor_mall_datasource - Start completed.
+[23:31:36:078] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on 胡文龙的电脑 with PID 16616 (E:\IdeaProjects\Projects\mall\target\classes started by 胡文龙 in E:\IdeaProjects\Projects\mall)
+[23:31:36:082] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[23:31:37:087] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8083 (http)
+[23:31:37:096] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[23:31:37:097] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[23:31:37:098] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[23:31:37:198] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[23:31:37:198] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1047 ms
+[23:31:37:692] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[23:31:37:881] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[23:31:37:897] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8083 (http) with context path ''
+[23:31:37:900] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 2.174 seconds (JVM running for 4.218)
+[23:31:48:755] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[23:31:48:755] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[23:31:48:759] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 4 ms
+[23:31:48:815] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - arbor_mall_datasource - Starting...
+[23:31:49:628] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - arbor_mall_datasource - Start completed.
+[23:33:19:211] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on 胡文龙的电脑 with PID 8212 (E:\IdeaProjects\Projects\mall\target\classes started by 胡文龙 in E:\IdeaProjects\Projects\mall)
+[23:33:19:246] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[23:33:20:137] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8083 (http)
+[23:33:20:145] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[23:33:20:146] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[23:33:20:146] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[23:33:20:246] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[23:33:20:247] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 963 ms
+[23:33:20:704] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[23:33:20:874] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[23:33:20:891] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8083 (http) with context path ''
+[23:33:20:894] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 1.987 seconds (JVM running for 4.013)
+[23:33:29:082] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[23:33:29:082] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[23:33:29:086] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 4 ms
+[23:33:29:129] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - arbor_mall_datasource - Starting...
+[23:33:29:885] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - arbor_mall_datasource - Start completed.
+[23:35:23:721] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on 胡文龙的电脑 with PID 17748 (E:\IdeaProjects\Projects\mall\target\classes started by 胡文龙 in E:\IdeaProjects\Projects\mall)
+[23:35:23:755] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[23:35:24:749] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8083 (http)
+[23:35:24:757] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[23:35:24:757] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[23:35:24:758] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[23:35:24:854] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[23:35:24:855] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1063 ms
+[23:35:25:374] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[23:35:25:623] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[23:35:25:640] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8083 (http) with context path ''
+[23:35:25:643] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 2.209 seconds (JVM running for 4.246)
+[23:35:32:034] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[23:35:32:034] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[23:35:32:041] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 7 ms
+[23:35:32:060] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : /test
+[23:35:32:060] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : GET
+[23:35:32:060] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 0:0:0:0:0:0:0:1
+[23:35:32:062] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.arbor.mall.controller.UserController.personalPage
+[23:35:32:062] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : []
+[23:35:32:088] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - arbor_mall_datasource - Starting...
+[23:35:32:859] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - arbor_mall_datasource - Start completed.
+[23:35:32:947] [INFO] - com.arbor.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"id":1,"username":"1","password":"1","personalizedSignature":"666","role":1,"createTime":1576435053000,"updateTime":1582958003000}
+[23:36:27:138] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : /test
+[23:36:27:139] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : GET
+[23:36:27:139] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[23:36:27:139] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.arbor.mall.controller.UserController.personalPage
+[23:36:27:139] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : []
+[23:36:27:152] [INFO] - com.arbor.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"id":1,"username":"1","password":"1","personalizedSignature":"666","role":1,"createTime":1576435053000,"updateTime":1582958003000}
+[23:36:40:697] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : /test
+[23:36:40:697] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : GET
+[23:36:40:697] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[23:36:40:697] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.arbor.mall.controller.UserController.personalPage
+[23:36:40:697] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : []
+[23:36:40:706] [INFO] - com.arbor.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"id":1,"username":"1","password":"1","personalizedSignature":"666","role":1,"createTime":1576435053000,"updateTime":1582958003000}
+[23:37:00:926] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on 胡文龙的电脑 with PID 9796 (E:\IdeaProjects\Projects\mall\target\classes started by 胡文龙 in E:\IdeaProjects\Projects\mall)
+[23:37:00:930] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[23:37:01:952] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8083 (http)
+[23:37:01:961] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[23:37:01:962] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[23:37:01:962] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[23:37:02:049] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[23:37:02:050] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1056 ms
+[23:37:02:550] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[23:37:02:788] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[23:37:02:804] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8083 (http) with context path ''
+[23:37:02:807] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 2.171 seconds (JVM running for 4.139)
+[23:37:06:566] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[23:37:06:567] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[23:37:06:573] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 6 ms
+[23:37:06:592] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : /test
+[23:37:06:592] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : GET
+[23:37:06:592] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[23:37:06:593] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.arbor.mall.controller.UserController.personalPage
+[23:37:06:593] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : []
+[23:37:06:621] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - arbor_mall_datasource - Starting...
+[23:37:07:395] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - arbor_mall_datasource - Start completed.
+[23:37:07:482] [INFO] - com.arbor.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"id":1,"username":"1","password":"1","personalizedSignature":"666","role":1,"createTime":1576435053000,"updateTime":1582958003000}

@@ -1,0 +1,453 @@
+[13:35:20:078] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on 胡文龙的电脑 with PID 19792 (E:\IdeaProjects\Projects\mall\target\classes started by 胡文龙 in E:\IdeaProjects\Projects\mall)
+[13:35:20:088] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[13:35:21:025] [WARN] - org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:558) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'adminFilterConf' defined in class path resource [com/arbor/mall/config/UserFilterConfig.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=userFilterConfig; factoryMethodName=userFilterConfig; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/arbor/mall/config/UserFilterConfig.class]] for bean 'adminFilterConf': There is already [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=adminFilterConfig; factoryMethodName=adminFilterConfig; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/arbor/mall/config/AdminFilterConfig.class]] bound.
+[13:38:20:338] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on 胡文龙的电脑 with PID 21376 (E:\IdeaProjects\Projects\mall\target\classes started by 胡文龙 in E:\IdeaProjects\Projects\mall)
+[13:38:20:371] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[13:38:21:215] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:246) - Multiple Spring Data modules found, entering strict repository configuration mode!
+[13:38:21:218] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:126) - Bootstrapping Spring Data repositories in DEFAULT mode.
+[13:38:21:264] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:184) - Finished Spring Data repository scanning in 29ms. Found 0 repository interfaces.
+[13:38:21:519] [INFO] - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330) - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[13:38:21:973] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8083 (http)
+[13:38:21:982] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[13:38:21:983] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[13:38:21:983] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[13:38:22:087] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[13:38:22:087] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1678 ms
+[13:38:23:128] [INFO] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[13:38:23:259] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[13:38:23:685] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160) - Context refreshed
+[13:38:23:702] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+[13:38:23:731] [INFO] - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41) - Scanning for api listing references
+[13:38:24:057] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[13:38:24:075] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8083 (http) with context path ''
+[13:38:24:078] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 4.022 seconds (JVM running for 5.924)
+[13:38:29:560] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[13:38:29:560] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[13:38:29:568] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 8 ms
+[14:40:40:300] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on 胡文龙的电脑 with PID 19544 (E:\IdeaProjects\Projects\mall\target\classes started by 胡文龙 in E:\IdeaProjects\Projects\mall)
+[14:40:40:303] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[14:40:41:283] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:246) - Multiple Spring Data modules found, entering strict repository configuration mode!
+[14:40:41:287] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:126) - Bootstrapping Spring Data repositories in DEFAULT mode.
+[14:40:41:334] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:184) - Finished Spring Data repository scanning in 31ms. Found 0 repository interfaces.
+[14:40:41:603] [INFO] - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330) - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[14:40:42:072] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8083 (http)
+[14:40:42:081] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[14:40:42:082] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[14:40:42:083] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[14:40:42:187] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[14:40:42:187] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1810 ms
+[14:40:43:208] [INFO] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[14:40:43:341] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[14:40:43:799] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160) - Context refreshed
+[14:40:43:815] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+[14:40:43:846] [INFO] - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41) - Scanning for api listing references
+[14:40:44:192] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[14:40:44:211] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8083 (http) with context path ''
+[14:40:44:213] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 4.217 seconds (JVM running for 6.241)
+[14:41:40:518] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[14:41:40:518] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[14:41:40:529] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 11 ms
+[14:41:50:488] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : //login
+[14:41:50:488] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[14:41:50:488] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[14:41:50:490] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.arbor.mall.controller.UserController.login
+[14:41:50:490] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [long2, 12345678, org.apache.catalina.session.StandardSessionFacade@daff209]
+[14:41:50:531] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - arbor_mall_datasource - Starting...
+[14:41:51:471] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - arbor_mall_datasource - Start completed.
+[14:41:51:555] [INFO] - com.arbor.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"status":10000,"msg":"SUCCESS","data":{"id":18,"username":"long2","password":null,"personalizedSignature":"奋勇向前","role":1,"createTime":1618918674000,"updateTime":1618918712000}}
+[14:42:00:340] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : //cart/add
+[14:42:00:340] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[14:42:00:340] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[14:42:00:340] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.arbor.mall.controller.CartController.add
+[14:42:00:340] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [40, 1]
+[14:42:00:382] [INFO] - com.arbor.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"status":10000,"msg":"SUCCESS","data":null}
+[14:43:39:342] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : //cart/add
+[14:43:39:342] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[14:43:39:342] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[14:43:39:342] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.arbor.mall.controller.CartController.add
+[14:43:39:342] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [40, 1]
+[14:43:39:356] [INFO] - com.arbor.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"status":10000,"msg":"SUCCESS","data":null}
+[15:32:42:144] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on 胡文龙的电脑 with PID 18192 (E:\IdeaProjects\Projects\mall\target\classes started by 胡文龙 in E:\IdeaProjects\Projects\mall)
+[15:32:42:149] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[15:32:43:241] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:246) - Multiple Spring Data modules found, entering strict repository configuration mode!
+[15:32:43:246] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:126) - Bootstrapping Spring Data repositories in DEFAULT mode.
+[15:32:43:301] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:184) - Finished Spring Data repository scanning in 36ms. Found 0 repository interfaces.
+[15:32:43:666] [INFO] - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330) - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[15:32:44:206] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8083 (http)
+[15:32:44:217] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[15:32:44:218] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[15:32:44:219] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[15:32:44:330] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[15:32:44:330] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 2128 ms
+[15:32:45:511] [INFO] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[15:32:45:655] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[15:32:46:117] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160) - Context refreshed
+[15:32:46:134] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+[15:32:46:168] [INFO] - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41) - Scanning for api listing references
+[15:32:46:556] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[15:32:46:576] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8083 (http) with context path ''
+[15:32:46:579] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 4.927 seconds (JVM running for 7.461)
+[15:33:18:283] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[15:33:18:283] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[15:33:18:291] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 8 ms
+[15:33:40:420] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[15:33:46:422] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on 胡文龙的电脑 with PID 21564 (E:\IdeaProjects\Projects\mall\target\classes started by 胡文龙 in E:\IdeaProjects\Projects\mall)
+[15:33:46:426] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[15:33:47:383] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:246) - Multiple Spring Data modules found, entering strict repository configuration mode!
+[15:33:47:387] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:126) - Bootstrapping Spring Data repositories in DEFAULT mode.
+[15:33:47:435] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:184) - Finished Spring Data repository scanning in 32ms. Found 0 repository interfaces.
+[15:33:47:833] [INFO] - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330) - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[15:33:48:377] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8083 (http)
+[15:33:48:386] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[15:33:48:387] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[15:33:48:388] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[15:33:48:497] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[15:33:48:498] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 2028 ms
+[15:33:49:638] [INFO] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[15:33:49:780] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[15:33:50:304] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160) - Context refreshed
+[15:33:50:347] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+[15:33:50:380] [INFO] - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41) - Scanning for api listing references
+[15:33:50:660] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: listUsingGET_1
+[15:33:50:756] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[15:33:50:776] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8083 (http) with context path ''
+[15:33:50:779] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 4.727 seconds (JVM running for 6.796)
+[15:34:05:775] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[15:34:05:775] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[15:34:05:783] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 8 ms
+[15:34:10:530] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : //login
+[15:34:10:530] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[15:34:10:530] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[15:34:10:532] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.arbor.mall.controller.UserController.login
+[15:34:10:533] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [long2, 12345678, org.apache.catalina.session.StandardSessionFacade@7645553f]
+[15:34:10:577] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - arbor_mall_datasource - Starting...
+[15:34:11:392] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - arbor_mall_datasource - Start completed.
+[15:34:11:644] [INFO] - com.arbor.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"status":10000,"msg":"SUCCESS","data":{"id":18,"username":"long2","password":null,"personalizedSignature":"奋勇向前","role":1,"createTime":1618918674000,"updateTime":1618918712000}}
+[15:34:17:352] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : //cart/list
+[15:34:17:352] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : GET
+[15:34:17:352] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[15:34:17:352] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.arbor.mall.controller.CartController.list
+[15:34:17:352] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : []
+[15:34:17:380] [INFO] - com.arbor.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"status":10000,"msg":"SUCCESS","data":[{"id":1,"productId":40,"userId":18,"quantity":2,"selected":1,"price":222,"totalPrice":444,"productName":"胡萝卜","productImage":"http://127.0.0.1:8083/images/huluobo.jpg"}]}
+[15:34:29:033] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : //cart/list
+[15:34:29:033] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : GET
+[15:34:29:033] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[15:34:29:033] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.arbor.mall.controller.CartController.list
+[15:34:29:033] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : []
+[15:34:29:039] [INFO] - com.arbor.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"status":10000,"msg":"SUCCESS","data":[]}
+[15:34:34:155] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : //cart/add
+[15:34:34:155] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[15:34:34:155] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[15:34:34:155] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.arbor.mall.controller.CartController.add
+[15:34:34:155] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [40, 1]
+[15:34:34:199] [INFO] - com.arbor.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"status":10000,"msg":"SUCCESS","data":null}
+[15:34:38:281] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : //cart/add
+[15:34:38:281] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[15:34:38:281] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[15:34:38:281] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.arbor.mall.controller.CartController.add
+[15:34:38:281] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [40, 1]
+[15:34:38:313] [INFO] - com.arbor.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"status":10000,"msg":"SUCCESS","data":null}
+[15:35:02:947] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[15:35:02:966] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - arbor_mall_datasource - Shutdown initiated...
+[15:35:02:976] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - arbor_mall_datasource - Shutdown completed.
+[15:35:08:993] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on 胡文龙的电脑 with PID 17068 (E:\IdeaProjects\Projects\mall\target\classes started by 胡文龙 in E:\IdeaProjects\Projects\mall)
+[15:35:08:997] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[15:35:09:921] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:246) - Multiple Spring Data modules found, entering strict repository configuration mode!
+[15:35:09:925] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:126) - Bootstrapping Spring Data repositories in DEFAULT mode.
+[15:35:09:981] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:184) - Finished Spring Data repository scanning in 37ms. Found 0 repository interfaces.
+[15:35:10:300] [INFO] - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330) - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[15:35:10:775] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8083 (http)
+[15:35:10:784] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[15:35:10:785] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[15:35:10:785] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[15:35:10:913] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[15:35:10:913] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1872 ms
+[15:35:12:017] [INFO] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[15:35:12:159] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[15:35:12:612] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160) - Context refreshed
+[15:35:12:637] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+[15:35:12:680] [INFO] - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41) - Scanning for api listing references
+[15:35:12:994] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: listUsingGET_1
+[15:35:13:108] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[15:35:13:129] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8083 (http) with context path ''
+[15:35:13:132] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 4.496 seconds (JVM running for 6.476)
+[15:35:24:688] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[15:35:24:688] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[15:35:24:700] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 12 ms
+[15:35:24:736] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : //login
+[15:35:24:737] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[15:35:24:737] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[15:35:24:739] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.arbor.mall.controller.UserController.login
+[15:35:24:739] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [long2, 12345678, org.apache.catalina.session.StandardSessionFacade@3766f5be]
+[15:35:24:782] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - arbor_mall_datasource - Starting...
+[15:35:25:578] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - arbor_mall_datasource - Start completed.
+[15:35:25:664] [INFO] - com.arbor.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"status":10000,"msg":"SUCCESS","data":{"id":18,"username":"long2","password":null,"personalizedSignature":"奋勇向前","role":1,"createTime":1618918674000,"updateTime":1618918712000}}
+[15:35:28:594] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : //cart/list
+[15:35:28:595] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : GET
+[15:35:28:595] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[15:35:28:595] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.arbor.mall.controller.CartController.list
+[15:35:28:595] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : []
+[15:35:28:615] [INFO] - com.arbor.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"status":10000,"msg":"SUCCESS","data":[{"id":2,"productId":40,"userId":18,"quantity":2,"selected":1,"price":222,"totalPrice":444,"productName":"胡萝卜","productImage":"http://127.0.0.1:8083/images/huluobo.jpg"}]}
+[15:35:37:887] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : //cart/add
+[15:35:37:887] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[15:35:37:888] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[15:35:37:888] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.arbor.mall.controller.CartController.add
+[15:35:37:888] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [40, 1]
+[15:35:37:926] [INFO] - com.arbor.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"status":10000,"msg":"SUCCESS","data":[{"id":2,"productId":40,"userId":18,"quantity":3,"selected":1,"price":222,"totalPrice":666,"productName":"胡萝卜","productImage":"http://127.0.0.1:8083/images/huluobo.jpg"}]}
+[15:35:42:826] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : //cart/list
+[15:35:42:827] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : GET
+[15:35:42:827] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[15:35:42:827] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.arbor.mall.controller.CartController.list
+[15:35:42:827] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : []
+[15:35:42:834] [INFO] - com.arbor.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"status":10000,"msg":"SUCCESS","data":[{"id":2,"productId":40,"userId":18,"quantity":3,"selected":1,"price":222,"totalPrice":666,"productName":"胡萝卜","productImage":"http://127.0.0.1:8083/images/huluobo.jpg"}]}
+[15:35:54:120] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[15:35:54:139] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - arbor_mall_datasource - Shutdown initiated...
+[15:35:54:150] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - arbor_mall_datasource - Shutdown completed.
+[15:43:53:981] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on 胡文龙的电脑 with PID 10248 (E:\IdeaProjects\Projects\mall\target\classes started by 胡文龙 in E:\IdeaProjects\Projects\mall)
+[15:43:53:984] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[15:43:55:041] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:246) - Multiple Spring Data modules found, entering strict repository configuration mode!
+[15:43:55:046] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:126) - Bootstrapping Spring Data repositories in DEFAULT mode.
+[15:43:55:097] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:184) - Finished Spring Data repository scanning in 32ms. Found 0 repository interfaces.
+[15:43:55:444] [INFO] - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330) - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[15:43:55:983] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8083 (http)
+[15:43:55:993] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[15:43:55:995] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[15:43:55:995] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[15:43:56:111] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[15:43:56:112] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 2071 ms
+[15:43:57:326] [INFO] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[15:43:57:481] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[15:43:57:965] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160) - Context refreshed
+[15:43:57:986] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+[15:43:58:024] [INFO] - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41) - Scanning for api listing references
+[15:43:58:332] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: listUsingGET_1
+[15:43:58:435] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[15:43:58:459] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8083 (http) with context path ''
+[15:43:58:462] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 4.927 seconds (JVM running for 7.173)
+[15:44:06:083] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[15:44:06:083] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[15:44:06:092] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 9 ms
+[15:44:06:132] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : //login
+[15:44:06:132] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[15:44:06:132] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[15:44:06:134] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.arbor.mall.controller.UserController.login
+[15:44:06:134] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [long2, 12345678, org.apache.catalina.session.StandardSessionFacade@12ae3ccb]
+[15:44:06:174] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - arbor_mall_datasource - Starting...
+[15:44:06:976] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - arbor_mall_datasource - Start completed.
+[15:44:07:065] [INFO] - com.arbor.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"status":10000,"msg":"SUCCESS","data":{"id":18,"username":"long2","password":null,"personalizedSignature":"奋勇向前","role":1,"createTime":1618918674000,"updateTime":1618918712000}}
+[15:44:32:945] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : //cart/add
+[15:44:32:945] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[15:44:32:945] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[15:44:32:945] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.arbor.mall.controller.CartController.add
+[15:44:32:945] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [40, 1]
+[15:44:32:992] [INFO] - com.arbor.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"status":10000,"msg":"SUCCESS","data":[{"id":2,"productId":40,"userId":18,"quantity":4,"selected":1,"price":222,"totalPrice":888,"productName":"胡萝卜","productImage":"http://127.0.0.1:8083/images/huluobo.jpg"}]}
+[15:44:49:634] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : //cart/update
+[15:44:49:635] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[15:44:49:635] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[15:44:49:635] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.arbor.mall.controller.CartController.update
+[15:44:49:635] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [40, 1]
+[15:44:49:661] [INFO] - com.arbor.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"status":10000,"msg":"SUCCESS","data":[{"id":2,"productId":40,"userId":18,"quantity":4,"selected":1,"price":222,"totalPrice":888,"productName":"胡萝卜","productImage":"http://127.0.0.1:8083/images/huluobo.jpg"}]}
+[15:45:08:843] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : //cart/update
+[15:45:08:843] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[15:45:08:843] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[15:45:08:843] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.arbor.mall.controller.CartController.update
+[15:45:08:843] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [40, 1]
+[15:45:08:857] [INFO] - com.arbor.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"status":10000,"msg":"SUCCESS","data":[{"id":2,"productId":40,"userId":18,"quantity":4,"selected":1,"price":222,"totalPrice":888,"productName":"胡萝卜","productImage":"http://127.0.0.1:8083/images/huluobo.jpg"}]}
+[15:45:26:317] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : //cart/update
+[15:45:26:317] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[15:45:26:318] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[15:45:26:318] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.arbor.mall.controller.CartController.update
+[15:45:26:318] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [40, -1]
+[15:45:26:332] [INFO] - com.arbor.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"status":10000,"msg":"SUCCESS","data":[{"id":2,"productId":40,"userId":18,"quantity":4,"selected":1,"price":222,"totalPrice":888,"productName":"胡萝卜","productImage":"http://127.0.0.1:8083/images/huluobo.jpg"}]}
+[15:45:32:167] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : //cart/list
+[15:45:32:168] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : GET
+[15:45:32:168] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[15:45:32:168] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.arbor.mall.controller.CartController.list
+[15:45:32:168] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : []
+[15:45:32:173] [INFO] - com.arbor.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"status":10000,"msg":"SUCCESS","data":[{"id":2,"productId":40,"userId":18,"quantity":4,"selected":1,"price":222,"totalPrice":888,"productName":"胡萝卜","productImage":"http://127.0.0.1:8083/images/huluobo.jpg"}]}
+[15:46:00:014] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[15:46:00:036] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - arbor_mall_datasource - Shutdown initiated...
+[15:46:00:047] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - arbor_mall_datasource - Shutdown completed.
+[15:55:10:302] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on 胡文龙的电脑 with PID 18744 (E:\IdeaProjects\Projects\mall\target\classes started by 胡文龙 in E:\IdeaProjects\Projects\mall)
+[15:55:10:306] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[15:55:11:352] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:246) - Multiple Spring Data modules found, entering strict repository configuration mode!
+[15:55:11:355] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:126) - Bootstrapping Spring Data repositories in DEFAULT mode.
+[15:55:11:407] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:184) - Finished Spring Data repository scanning in 32ms. Found 0 repository interfaces.
+[15:55:11:739] [INFO] - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330) - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[15:55:12:257] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8083 (http)
+[15:55:12:267] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[15:55:12:268] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[15:55:12:268] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[15:55:12:387] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[15:55:12:388] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 2021 ms
+[15:55:13:620] [INFO] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[15:55:13:790] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[15:55:14:302] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160) - Context refreshed
+[15:55:14:318] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+[15:55:14:357] [INFO] - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41) - Scanning for api listing references
+[15:55:14:666] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: listUsingGET_1
+[15:55:14:768] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[15:55:14:790] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8083 (http) with context path ''
+[15:55:14:793] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 4.877 seconds (JVM running for 6.988)
+[15:55:29:853] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[15:55:29:853] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[15:55:29:862] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 9 ms
+[15:55:29:902] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : //login
+[15:55:29:902] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[15:55:29:902] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[15:55:29:904] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.arbor.mall.controller.UserController.login
+[15:55:29:904] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [long2, 12345678, org.apache.catalina.session.StandardSessionFacade@4652f27e]
+[15:55:29:948] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - arbor_mall_datasource - Starting...
+[15:55:30:800] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - arbor_mall_datasource - Start completed.
+[15:55:30:898] [INFO] - com.arbor.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"status":10000,"msg":"SUCCESS","data":{"id":18,"username":"long2","password":null,"personalizedSignature":"奋勇向前","role":1,"createTime":1618918674000,"updateTime":1618918712000}}
+[15:55:34:917] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : //cart/update
+[15:55:34:917] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[15:55:34:917] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[15:55:34:917] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.arbor.mall.controller.CartController.update
+[15:55:34:918] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [40, 10]
+[15:55:34:972] [INFO] - com.arbor.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"status":10000,"msg":"SUCCESS","data":[{"id":2,"productId":40,"userId":18,"quantity":10,"selected":1,"price":222,"totalPrice":2220,"productName":"胡萝卜","productImage":"http://127.0.0.1:8083/images/huluobo.jpg"}]}
+[15:56:31:686] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : //cart/delete
+[15:56:31:686] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[15:56:31:686] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[15:56:31:686] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.arbor.mall.controller.CartController.delete
+[15:56:31:686] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [40]
+[15:56:31:708] [INFO] - com.arbor.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"status":10000,"msg":"SUCCESS","data":[]}
+[17:04:52:397] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[17:04:52:419] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - arbor_mall_datasource - Shutdown initiated...
+[17:04:52:426] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - arbor_mall_datasource - Shutdown completed.
+[17:05:00:011] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on 胡文龙的电脑 with PID 1712 (E:\IdeaProjects\Projects\mall\target\classes started by 胡文龙 in E:\IdeaProjects\Projects\mall)
+[17:05:00:019] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[17:05:01:075] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:246) - Multiple Spring Data modules found, entering strict repository configuration mode!
+[17:05:01:079] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:126) - Bootstrapping Spring Data repositories in DEFAULT mode.
+[17:05:01:138] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:184) - Finished Spring Data repository scanning in 39ms. Found 0 repository interfaces.
+[17:05:01:520] [INFO] - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330) - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[17:05:02:136] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8083 (http)
+[17:05:02:148] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[17:05:02:150] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[17:05:02:150] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[17:05:02:285] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[17:05:02:286] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 2214 ms
+[17:05:03:643] [INFO] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[17:05:03:811] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[17:05:04:408] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160) - Context refreshed
+[17:05:04:429] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+[17:05:04:474] [INFO] - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41) - Scanning for api listing references
+[17:05:04:882] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: listUsingGET_1
+[17:05:04:976] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[17:05:05:002] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8083 (http) with context path ''
+[17:05:05:005] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 5.395 seconds (JVM running for 7.573)
+[17:06:42:659] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[17:06:42:659] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[17:06:42:672] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 13 ms
+[17:06:42:712] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : //login
+[17:06:42:712] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[17:06:42:713] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[17:06:42:715] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.arbor.mall.controller.UserController.login
+[17:06:42:715] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [long2, 12345678, org.apache.catalina.session.StandardSessionFacade@9ab81d7]
+[17:06:42:760] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - arbor_mall_datasource - Starting...
+[17:06:43:631] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - arbor_mall_datasource - Start completed.
+[17:06:43:730] [INFO] - com.arbor.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"status":10000,"msg":"SUCCESS","data":{"id":18,"username":"long2","password":null,"personalizedSignature":"奋勇向前","role":1,"createTime":1618918674000,"updateTime":1618918712000}}
+[17:06:45:641] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : //cart/list
+[17:06:45:642] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : GET
+[17:06:45:642] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[17:06:45:642] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.arbor.mall.controller.CartController.list
+[17:06:45:642] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : []
+[17:06:45:660] [INFO] - com.arbor.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"status":10000,"msg":"SUCCESS","data":[]}
+[17:06:50:751] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : //cart/add
+[17:06:50:752] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[17:06:50:752] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[17:06:50:752] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.arbor.mall.controller.CartController.add
+[17:06:50:752] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [40, 1]
+[17:06:50:797] [INFO] - com.arbor.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"status":10000,"msg":"SUCCESS","data":[{"id":3,"productId":40,"userId":18,"quantity":1,"selected":1,"price":222,"totalPrice":222,"productName":"胡萝卜","productImage":"http://127.0.0.1:8083/images/huluobo.jpg"}]}
+[17:07:21:610] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : //cart/add
+[17:07:21:610] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[17:07:21:610] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[17:07:21:610] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.arbor.mall.controller.CartController.add
+[17:07:21:610] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [17, 2]
+[17:07:21:638] [INFO] - com.arbor.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"status":10000,"msg":"SUCCESS","data":[{"id":3,"productId":40,"userId":18,"quantity":1,"selected":1,"price":222,"totalPrice":222,"productName":"胡萝卜","productImage":"http://127.0.0.1:8083/images/huluobo.jpg"},{"id":4,"productId":17,"userId":18,"quantity":2,"selected":1,"price":99,"totalPrice":198,"productName":"红颜奶油草莓 约重500g/20-24颗 新鲜水果","productImage":"http://127.0.0.1:8083/images/caomei2.jpg"}]}
+[17:07:46:450] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : //cart/select
+[17:07:46:450] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[17:07:46:450] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[17:07:46:450] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.arbor.mall.controller.CartController.select
+[17:07:46:450] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [40, 1]
+[17:07:46:463] [INFO] - com.arbor.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"status":10000,"msg":"SUCCESS","data":[{"id":3,"productId":40,"userId":18,"quantity":1,"selected":1,"price":222,"totalPrice":222,"productName":"胡萝卜","productImage":"http://127.0.0.1:8083/images/huluobo.jpg"},{"id":4,"productId":17,"userId":18,"quantity":2,"selected":1,"price":99,"totalPrice":198,"productName":"红颜奶油草莓 约重500g/20-24颗 新鲜水果","productImage":"http://127.0.0.1:8083/images/caomei2.jpg"}]}
+[17:07:55:454] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : //cart/select
+[17:07:55:454] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[17:07:55:454] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[17:07:55:454] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.arbor.mall.controller.CartController.select
+[17:07:55:455] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [40, 0]
+[17:07:55:481] [INFO] - com.arbor.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"status":10000,"msg":"SUCCESS","data":[{"id":3,"productId":40,"userId":18,"quantity":1,"selected":0,"price":222,"totalPrice":222,"productName":"胡萝卜","productImage":"http://127.0.0.1:8083/images/huluobo.jpg"},{"id":4,"productId":17,"userId":18,"quantity":2,"selected":1,"price":99,"totalPrice":198,"productName":"红颜奶油草莓 约重500g/20-24颗 新鲜水果","productImage":"http://127.0.0.1:8083/images/caomei2.jpg"}]}
+[17:08:07:042] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : //cart/select
+[17:08:07:042] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[17:08:07:042] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[17:08:07:043] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.arbor.mall.controller.CartController.select
+[17:08:07:043] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [18, 0]
+[17:08:14:036] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : //cart/list
+[17:08:14:036] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : GET
+[17:08:14:037] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[17:08:14:037] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.arbor.mall.controller.CartController.list
+[17:08:14:037] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : []
+[17:08:14:044] [INFO] - com.arbor.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"status":10000,"msg":"SUCCESS","data":[{"id":3,"productId":40,"userId":18,"quantity":1,"selected":0,"price":222,"totalPrice":222,"productName":"胡萝卜","productImage":"http://127.0.0.1:8083/images/huluobo.jpg"},{"id":4,"productId":17,"userId":18,"quantity":2,"selected":1,"price":99,"totalPrice":198,"productName":"红颜奶油草莓 约重500g/20-24颗 新鲜水果","productImage":"http://127.0.0.1:8083/images/caomei2.jpg"}]}
+[17:08:25:626] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : //cart/select
+[17:08:25:626] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[17:08:25:626] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[17:08:25:626] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.arbor.mall.controller.CartController.select
+[17:08:25:626] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [17, 0]
+[17:08:25:649] [INFO] - com.arbor.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"status":10000,"msg":"SUCCESS","data":[{"id":3,"productId":40,"userId":18,"quantity":1,"selected":0,"price":222,"totalPrice":222,"productName":"胡萝卜","productImage":"http://127.0.0.1:8083/images/huluobo.jpg"},{"id":4,"productId":17,"userId":18,"quantity":2,"selected":0,"price":99,"totalPrice":198,"productName":"红颜奶油草莓 约重500g/20-24颗 新鲜水果","productImage":"http://127.0.0.1:8083/images/caomei2.jpg"}]}
+[17:08:36:341] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : //cart/selectAll
+[17:08:36:341] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[17:08:36:341] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[17:08:36:341] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.arbor.mall.controller.CartController.selectAll
+[17:08:36:341] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [1]
+[17:08:36:363] [INFO] - com.arbor.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"status":10000,"msg":"SUCCESS","data":[{"id":3,"productId":40,"userId":18,"quantity":1,"selected":1,"price":222,"totalPrice":222,"productName":"胡萝卜","productImage":"http://127.0.0.1:8083/images/huluobo.jpg"},{"id":4,"productId":17,"userId":18,"quantity":2,"selected":1,"price":99,"totalPrice":198,"productName":"红颜奶油草莓 约重500g/20-24颗 新鲜水果","productImage":"http://127.0.0.1:8083/images/caomei2.jpg"}]}
+[17:08:50:010] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : //cart/list
+[17:08:50:010] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : GET
+[17:08:50:010] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[17:08:50:010] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.arbor.mall.controller.CartController.list
+[17:08:50:011] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : []
+[17:08:50:016] [INFO] - com.arbor.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"status":10000,"msg":"SUCCESS","data":[{"id":3,"productId":40,"userId":18,"quantity":1,"selected":1,"price":222,"totalPrice":222,"productName":"胡萝卜","productImage":"http://127.0.0.1:8083/images/huluobo.jpg"},{"id":4,"productId":17,"userId":18,"quantity":2,"selected":1,"price":99,"totalPrice":198,"productName":"红颜奶油草莓 约重500g/20-24颗 新鲜水果","productImage":"http://127.0.0.1:8083/images/caomei2.jpg"}]}
+[17:09:02:432] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : //cart/add
+[17:09:02:432] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[17:09:02:432] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[17:09:02:432] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.arbor.mall.controller.CartController.add
+[17:09:02:432] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [40, 50]
+[17:09:02:461] [INFO] - com.arbor.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"status":10000,"msg":"SUCCESS","data":[{"id":3,"productId":40,"userId":18,"quantity":51,"selected":1,"price":222,"totalPrice":11322,"productName":"胡萝卜","productImage":"http://127.0.0.1:8083/images/huluobo.jpg"},{"id":4,"productId":17,"userId":18,"quantity":2,"selected":1,"price":99,"totalPrice":198,"productName":"红颜奶油草莓 约重500g/20-24颗 新鲜水果","productImage":"http://127.0.0.1:8083/images/caomei2.jpg"}]}
+[17:09:44:665] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : //cart/add
+[17:09:44:665] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[17:09:44:665] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[17:09:44:665] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.arbor.mall.controller.CartController.add
+[17:09:44:665] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [40, 20]
+[17:09:44:688] [INFO] - com.arbor.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"status":10000,"msg":"SUCCESS","data":[{"id":3,"productId":40,"userId":18,"quantity":71,"selected":1,"price":222,"totalPrice":15762,"productName":"胡萝卜","productImage":"http://127.0.0.1:8083/images/huluobo.jpg"},{"id":4,"productId":17,"userId":18,"quantity":2,"selected":1,"price":99,"totalPrice":198,"productName":"红颜奶油草莓 约重500g/20-24颗 新鲜水果","productImage":"http://127.0.0.1:8083/images/caomei2.jpg"}]}
+[17:11:13:420] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : //cart/add
+[17:11:13:420] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[17:11:13:420] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[17:11:13:420] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.arbor.mall.controller.CartController.add
+[17:11:13:420] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [40, 1]
+[17:11:13:445] [INFO] - com.arbor.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"status":10000,"msg":"SUCCESS","data":[{"id":3,"productId":40,"userId":18,"quantity":72,"selected":1,"price":222,"totalPrice":15984,"productName":"胡萝卜","productImage":"http://127.0.0.1:8083/images/huluobo.jpg"},{"id":4,"productId":17,"userId":18,"quantity":2,"selected":1,"price":99,"totalPrice":198,"productName":"红颜奶油草莓 约重500g/20-24颗 新鲜水果","productImage":"http://127.0.0.1:8083/images/caomei2.jpg"}]}
+[17:12:44:278] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : //cart/update
+[17:12:44:278] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[17:12:44:278] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[17:12:44:278] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.arbor.mall.controller.CartController.update
+[17:12:44:278] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [40, 1]
+[17:12:44:302] [INFO] - com.arbor.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"status":10000,"msg":"SUCCESS","data":[{"id":3,"productId":40,"userId":18,"quantity":1,"selected":1,"price":222,"totalPrice":222,"productName":"胡萝卜","productImage":"http://127.0.0.1:8083/images/huluobo.jpg"},{"id":4,"productId":17,"userId":18,"quantity":2,"selected":1,"price":99,"totalPrice":198,"productName":"红颜奶油草莓 约重500g/20-24颗 新鲜水果","productImage":"http://127.0.0.1:8083/images/caomei2.jpg"}]}
+[17:12:48:690] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : //cart/update
+[17:12:48:690] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[17:12:48:691] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[17:12:48:691] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.arbor.mall.controller.CartController.update
+[17:12:48:691] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [40, 10]
+[17:12:48:716] [INFO] - com.arbor.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"status":10000,"msg":"SUCCESS","data":[{"id":3,"productId":40,"userId":18,"quantity":10,"selected":1,"price":222,"totalPrice":2220,"productName":"胡萝卜","productImage":"http://127.0.0.1:8083/images/huluobo.jpg"},{"id":4,"productId":17,"userId":18,"quantity":2,"selected":1,"price":99,"totalPrice":198,"productName":"红颜奶油草莓 约重500g/20-24颗 新鲜水果","productImage":"http://127.0.0.1:8083/images/caomei2.jpg"}]}
+[17:13:12:960] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : //cart/selectAll
+[17:13:12:961] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[17:13:12:961] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[17:13:12:961] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.arbor.mall.controller.CartController.selectAll
+[17:13:12:961] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [0]
+[17:13:12:983] [INFO] - com.arbor.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"status":10000,"msg":"SUCCESS","data":[{"id":3,"productId":40,"userId":18,"quantity":10,"selected":0,"price":222,"totalPrice":2220,"productName":"胡萝卜","productImage":"http://127.0.0.1:8083/images/huluobo.jpg"},{"id":4,"productId":17,"userId":18,"quantity":2,"selected":0,"price":99,"totalPrice":198,"productName":"红颜奶油草莓 约重500g/20-24颗 新鲜水果","productImage":"http://127.0.0.1:8083/images/caomei2.jpg"}]}
+[17:13:22:444] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : //cart/update
+[17:13:22:444] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[17:13:22:444] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[17:13:22:444] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.arbor.mall.controller.CartController.update
+[17:13:22:444] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [40, 9]
+[17:13:22:473] [INFO] - com.arbor.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"status":10000,"msg":"SUCCESS","data":[{"id":3,"productId":40,"userId":18,"quantity":9,"selected":1,"price":222,"totalPrice":1998,"productName":"胡萝卜","productImage":"http://127.0.0.1:8083/images/huluobo.jpg"},{"id":4,"productId":17,"userId":18,"quantity":2,"selected":0,"price":99,"totalPrice":198,"productName":"红颜奶油草莓 约重500g/20-24颗 新鲜水果","productImage":"http://127.0.0.1:8083/images/caomei2.jpg"}]}
+[19:46:17:431] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[19:46:17:476] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - arbor_mall_datasource - Shutdown initiated...
+[19:46:17:500] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - arbor_mall_datasource - Shutdown completed.

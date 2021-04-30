@@ -1,0 +1,246 @@
+[15:53:12:767] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on 胡文龙的电脑 with PID 12052 (E:\IdeaProjects\Projects\mall\target\classes started by 胡文龙 in E:\IdeaProjects\Projects\mall)
+[15:53:12:775] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[15:53:14:022] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8083 (http)
+[15:53:14:032] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[15:53:14:033] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[15:53:14:033] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[15:53:14:137] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[15:53:14:137] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1315 ms
+[15:53:14:783] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[15:53:15:060] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[15:53:15:081] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8083 (http) with context path ''
+[15:53:15:084] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 2.736 seconds (JVM running for 5.325)
+[15:54:40:549] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[15:54:40:549] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[15:54:40:557] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 7 ms
+[15:54:40:591] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : //register
+[15:54:40:591] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[15:54:40:591] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[15:54:40:593] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.arbor.mall.controller.UserController.register
+[15:54:40:593] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [null, null]
+[15:54:40:644] [INFO] - com.arbor.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"status":10001,"msg":"用户名不能为空","data":null}
+[15:55:15:213] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : //register
+[15:55:15:213] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[15:55:15:213] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[15:55:15:214] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.arbor.mall.controller.UserController.register
+[15:55:15:214] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [long, null]
+[15:55:15:218] [INFO] - com.arbor.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"status":10002,"msg":"密码不能为空","data":null}
+[15:55:26:971] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : //register
+[15:55:26:971] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[15:55:26:971] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[15:55:26:971] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.arbor.mall.controller.UserController.register
+[15:55:26:971] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [long, 123]
+[15:55:26:976] [INFO] - com.arbor.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"status":10003,"msg":"密码不能低于8位","data":null}
+[15:55:36:006] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : //register
+[15:55:36:007] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[15:55:36:007] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[15:55:36:007] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.arbor.mall.controller.UserController.register
+[15:55:36:007] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [long, 12345678]
+[15:55:36:043] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - arbor_mall_datasource - Starting...
+[15:55:36:925] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - arbor_mall_datasource - Start completed.
+[15:55:37:009] [INFO] - com.arbor.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"status":10000,"msg":"SUCCESS","data":null}
+[15:56:07:114] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : //register
+[15:56:07:114] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[15:56:07:114] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[15:56:07:114] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.arbor.mall.controller.UserController.register
+[15:56:07:114] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [long, 12345678]
+[16:28:13:321] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[16:28:13:322] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - arbor_mall_datasource - Shutdown initiated...
+[16:28:13:331] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - arbor_mall_datasource - Shutdown completed.
+[16:46:36:738] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on 胡文龙的电脑 with PID 19524 (E:\IdeaProjects\Projects\mall\target\classes started by 胡文龙 in E:\IdeaProjects\Projects\mall)
+[16:46:36:745] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[16:46:38:105] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8083 (http)
+[16:46:38:114] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[16:46:38:115] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[16:46:38:116] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[16:46:38:221] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[16:46:38:222] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1425 ms
+[16:46:38:847] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[16:46:39:125] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[16:46:39:147] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8083 (http) with context path ''
+[16:46:39:151] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 2.807 seconds (JVM running for 4.996)
+[16:46:52:183] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[16:46:52:183] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[16:46:52:192] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 8 ms
+[16:46:52:227] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : //register
+[16:46:52:227] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[16:46:52:227] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[16:46:52:229] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.arbor.mall.controller.UserController.register
+[16:46:52:229] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [long, 12345678]
+[16:46:52:264] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - arbor_mall_datasource - Starting...
+[16:46:53:137] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - arbor_mall_datasource - Start completed.
+[16:47:36:185] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[16:47:36:186] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - arbor_mall_datasource - Shutdown initiated...
+[16:47:36:193] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - arbor_mall_datasource - Shutdown completed.
+[17:13:45:578] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on 胡文龙的电脑 with PID 9440 (E:\IdeaProjects\Projects\mall\target\classes started by 胡文龙 in E:\IdeaProjects\Projects\mall)
+[17:13:45:581] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[17:13:46:595] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8083 (http)
+[17:13:46:602] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[17:13:46:603] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[17:13:46:603] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[17:13:46:712] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[17:13:46:712] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1068 ms
+[17:13:47:304] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[17:13:47:553] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[17:13:47:570] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8083 (http) with context path ''
+[17:13:47:572] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 2.272 seconds (JVM running for 4.122)
+[17:14:03:287] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[17:14:03:287] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[17:14:03:295] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 8 ms
+[17:14:03:319] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : //register
+[17:14:03:320] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[17:14:03:320] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[17:14:03:321] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.arbor.mall.controller.UserController.register
+[17:14:03:321] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [long, 12345678]
+[17:14:03:351] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - arbor_mall_datasource - Starting...
+[17:14:04:118] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - arbor_mall_datasource - Start completed.
+[17:14:15:613] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : //register
+[17:14:15:613] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[17:14:15:613] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[17:14:15:614] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.arbor.mall.controller.UserController.register
+[17:14:15:614] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [long1, 12345678]
+[17:14:15:658] [INFO] - com.arbor.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"status":10000,"msg":"SUCCESS","data":null}
+[19:08:27:159] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on 胡文龙的电脑 with PID 13928 (E:\IdeaProjects\Projects\mall\target\classes started by 胡文龙 in E:\IdeaProjects\Projects\mall)
+[19:08:27:163] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[19:08:28:229] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8083 (http)
+[19:08:28:239] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[19:08:28:240] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[19:08:28:241] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[19:08:28:327] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[19:08:28:327] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1099 ms
+[19:08:28:873] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[19:08:29:124] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[19:08:29:141] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8083 (http) with context path ''
+[19:08:29:144] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 2.275 seconds (JVM running for 4.303)
+[19:10:30:872] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[19:10:30:873] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[19:10:30:881] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 8 ms
+[19:10:30:907] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : //register
+[19:10:30:907] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[19:10:30:908] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[19:10:30:909] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.arbor.mall.controller.UserController.register
+[19:10:30:910] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [long1, 12345678]
+[19:10:30:945] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - arbor_mall_datasource - Starting...
+[19:10:31:762] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - arbor_mall_datasource - Start completed.
+[19:10:49:693] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : //login
+[19:10:49:693] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[19:10:49:693] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[19:10:49:693] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.arbor.mall.controller.UserController.login
+[19:10:49:694] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [long1, 12345678, org.apache.catalina.session.StandardSessionFacade@b39a6f]
+[19:11:34:662] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on 胡文龙的电脑 with PID 21456 (E:\IdeaProjects\Projects\mall\target\classes started by 胡文龙 in E:\IdeaProjects\Projects\mall)
+[19:11:34:666] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[19:11:35:708] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8083 (http)
+[19:11:35:717] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[19:11:35:718] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[19:11:35:718] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[19:11:35:810] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[19:11:35:810] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1081 ms
+[19:11:36:328] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[19:11:36:563] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[19:11:36:580] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8083 (http) with context path ''
+[19:11:36:583] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 2.194 seconds (JVM running for 4.055)
+[19:11:40:449] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[19:11:40:449] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[19:11:40:455] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 6 ms
+[19:11:40:484] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : //login
+[19:11:40:485] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[19:11:40:485] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[19:11:40:486] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.arbor.mall.controller.UserController.login
+[19:11:40:486] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [long1, 12345678, org.apache.catalina.session.StandardSessionFacade@3a9ecbe8]
+[19:11:40:519] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - arbor_mall_datasource - Starting...
+[19:11:41:291] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - arbor_mall_datasource - Start completed.
+[19:11:41:387] [INFO] - com.arbor.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"status":10000,"msg":"SUCCESS","data":{"id":17,"username":"long1","password":null,"personalizedSignature":"","role":1,"createTime":1618910055000,"updateTime":1618910055000}}
+[19:12:45:967] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : //user/update
+[19:12:45:967] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[19:12:45:967] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[19:12:45:967] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.arbor.mall.controller.UserController.updateUserInfo
+[19:12:45:967] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [今天天气晴朗, org.apache.catalina.session.StandardSessionFacade@3a9ecbe8]
+[19:12:46:003] [INFO] - com.arbor.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"status":10000,"msg":"SUCCESS","data":null}
+[19:12:58:774] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : //login
+[19:12:58:774] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[19:12:58:774] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[19:12:58:775] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.arbor.mall.controller.UserController.login
+[19:12:58:775] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [long1, 12345678, org.apache.catalina.session.StandardSessionFacade@3a9ecbe8]
+[19:12:58:792] [INFO] - com.arbor.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"status":10000,"msg":"SUCCESS","data":{"id":17,"username":"long1","password":null,"personalizedSignature":"今天天气晴朗","role":1,"createTime":1618910055000,"updateTime":1618917165000}}
+[19:33:41:268] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on 胡文龙的电脑 with PID 12496 (E:\IdeaProjects\Projects\mall\target\classes started by 胡文龙 in E:\IdeaProjects\Projects\mall)
+[19:33:41:271] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[19:33:42:339] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8083 (http)
+[19:33:42:347] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[19:33:42:347] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[19:33:42:348] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[19:33:42:438] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[19:33:42:439] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1099 ms
+[19:33:42:991] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[19:33:43:279] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[19:33:43:299] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8083 (http) with context path ''
+[19:33:43:302] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 2.33 seconds (JVM running for 4.29)
+[19:34:02:122] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[19:34:02:122] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[19:34:02:133] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 11 ms
+[19:34:02:162] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : //user/update
+[19:34:02:162] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[19:34:02:162] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[19:34:02:165] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.arbor.mall.controller.UserController.updateUserInfo
+[19:34:02:165] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [今天天气晴朗, org.apache.catalina.session.StandardSessionFacade@5dcf4719]
+[19:34:02:214] [INFO] - com.arbor.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"status":10007,"msg":"用户未登录","data":null}
+[19:37:39:797] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : //user/update
+[19:37:39:797] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[19:37:39:797] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[19:37:39:797] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.arbor.mall.controller.UserController.updateUserInfo
+[19:37:39:797] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [今天天气晴朗, org.apache.catalina.session.StandardSessionFacade@5dcf4719]
+[19:37:39:801] [INFO] - com.arbor.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"status":10007,"msg":"用户未登录","data":null}
+[19:37:53:350] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : //register
+[19:37:53:351] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[19:37:53:351] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[19:37:53:351] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.arbor.mall.controller.UserController.register
+[19:37:53:351] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [long2, 12345678]
+[19:37:53:380] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - arbor_mall_datasource - Starting...
+[19:37:54:192] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - arbor_mall_datasource - Start completed.
+[19:37:54:285] [INFO] - com.arbor.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"status":10000,"msg":"SUCCESS","data":null}
+[19:38:12:183] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : //register
+[19:38:12:183] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[19:38:12:183] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[19:38:12:184] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.arbor.mall.controller.UserController.register
+[19:38:12:184] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [long2, 12345678]
+[19:38:18:521] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : //login
+[19:38:18:521] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[19:38:18:521] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[19:38:18:521] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.arbor.mall.controller.UserController.login
+[19:38:18:521] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [long2, 12345678, org.apache.catalina.session.StandardSessionFacade@5dcf4719]
+[19:38:18:529] [INFO] - com.arbor.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"status":10000,"msg":"SUCCESS","data":{"id":18,"username":"long2","password":null,"personalizedSignature":"","role":1,"createTime":1618918674000,"updateTime":1618918674000}}
+[19:38:32:020] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : //user/update
+[19:38:32:020] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[19:38:32:020] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[19:38:32:020] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.arbor.mall.controller.UserController.updateUserInfo
+[19:38:32:020] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [奋勇向前, org.apache.catalina.session.StandardSessionFacade@5dcf4719]
+[19:38:32:044] [INFO] - com.arbor.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"status":10000,"msg":"SUCCESS","data":null}
+[19:38:49:656] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : //login
+[19:38:49:656] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[19:38:49:656] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[19:38:49:656] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.arbor.mall.controller.UserController.login
+[19:38:49:656] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [long2, 12345678, org.apache.catalina.session.StandardSessionFacade@5dcf4719]
+[19:38:49:664] [INFO] - com.arbor.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"status":10000,"msg":"SUCCESS","data":{"id":18,"username":"long2","password":null,"personalizedSignature":"奋勇向前","role":1,"createTime":1618918674000,"updateTime":1618918712000}}
+[19:38:59:035] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : ///user/logout
+[19:38:59:035] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[19:38:59:035] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[19:38:59:035] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.arbor.mall.controller.UserController.logout
+[19:38:59:035] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [org.apache.catalina.session.StandardSessionFacade@5dcf4719]
+[19:38:59:037] [INFO] - com.arbor.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"status":10000,"msg":"SUCCESS","data":null}
+[19:39:04:642] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : //user/update
+[19:39:04:644] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[19:39:04:644] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[19:39:04:644] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.arbor.mall.controller.UserController.updateUserInfo
+[19:39:04:644] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [奋勇向前, org.apache.catalina.session.StandardSessionFacade@5dcf4719]
+[19:39:04:646] [INFO] - com.arbor.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"status":10007,"msg":"用户未登录","data":null}
+[19:39:50:226] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : //adminLogin
+[19:39:50:226] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[19:39:50:226] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[19:39:50:226] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.arbor.mall.controller.UserController.adminLogin
+[19:39:50:226] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [long2, 12345678, org.apache.catalina.session.StandardSessionFacade@5dcf4719]
+[19:39:50:230] [INFO] - com.arbor.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"status":10009,"msg":"没有权限","data":null}
+[19:40:08:931] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : //adminLogin
+[19:40:08:931] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[19:40:08:931] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[19:40:08:932] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.arbor.mall.controller.UserController.adminLogin
+[19:40:08:932] [INFO] - com.arbor.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [long, 12345678, org.apache.catalina.session.StandardSessionFacade@5dcf4719]
+[19:40:08:939] [INFO] - com.arbor.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"status":10000,"msg":"SUCCESS","data":{"id":16,"username":"long","password":null,"personalizedSignature":"","role":2,"createTime":1618905337000,"updateTime":1618917893000}}

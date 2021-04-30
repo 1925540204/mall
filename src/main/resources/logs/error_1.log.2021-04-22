@@ -1,0 +1,40 @@
+[15:31:37:134] [ERROR] - com.arbor.mall.exception.GlobalExceptionHandler.handleException(GlobalExceptionHandler.java:35) - Default Exception: org.springframework.web.multipart.support.MissingServletRequestPartException: Required request part 'file' is not present
+[15:34:15:620] [ERROR] - com.arbor.mall.exception.GlobalExceptionHandler.handleException(GlobalExceptionHandler.java:35) - Default Exception: org.springframework.web.multipart.support.MissingServletRequestPartException: Required request part 'file' is not present
+[15:35:15:381] [ERROR] - com.arbor.mall.exception.GlobalExceptionHandler.handleException(GlobalExceptionHandler.java:35) - Default Exception: org.springframework.web.multipart.support.MissingServletRequestPartException: Required request part 'file' is not present
+[15:35:43:316] [ERROR] - com.arbor.mall.exception.GlobalExceptionHandler.handleException(GlobalExceptionHandler.java:35) - Default Exception: org.springframework.web.multipart.support.MissingServletRequestPartException: Required request part 'file' is not present
+[15:37:17:868] [ERROR] - com.arbor.mall.exception.GlobalExceptionHandler.handleException(GlobalExceptionHandler.java:35) - Default Exception: org.springframework.web.multipart.support.MissingServletRequestPartException: Required request part 'file' is not present
+[15:37:52:300] [ERROR] - com.arbor.mall.exception.GlobalExceptionHandler.handleException(GlobalExceptionHandler.java:35) - Default Exception: org.springframework.web.multipart.support.MissingServletRequestPartException: Required request part 'file' is not present
+[18:43:01:861] [ERROR] - com.arbor.mall.exception.GlobalExceptionHandler.handleException(GlobalExceptionHandler.java:35) - Default Exception: org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.binding.BindingException: Parameter 'ids' not found. Available parameters are [productStatusVO, param1, status, param2]
+[18:46:17:337] [ERROR] - com.arbor.mall.exception.GlobalExceptionHandler.handleException(GlobalExceptionHandler.java:35) - Default Exception: org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.binding.BindingException: Parameter 'ids' not found. Available parameters are [productStatusVO, param1, status, param2]
+[18:55:35:895] [ERROR] - com.arbor.mall.exception.GlobalExceptionHandler.handleException(GlobalExceptionHandler.java:35) - Default Exception: org.springframework.jdbc.BadSqlGrammarException: 
+### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'id in
+         (  
+            2
+         , 
+            3
+         )' at line 3
+### The error may involve com.arbor.mall.model.dao.ProductMapper.updateStatus-Inline
+### The error occurred while setting parameters
+### SQL: update arbor_mall_product         set status = ?         id in          (               ?          ,              ?          )
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'id in
+         (  
+            2
+         , 
+            3
+         )' at line 3
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'id in
+         (  
+            2
+         , 
+            3
+         )' at line 3
+[23:39:38:269] [ERROR] - com.arbor.mall.exception.GlobalExceptionHandler.handleException(GlobalExceptionHandler.java:35) - Default Exception: org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.arbor.mall.common.ApiRestResponse com.arbor.mall.controller.ProductController.list(com.arbor.mall.model.request.ProductListReq)
+[23:40:30:495] [ERROR] - com.arbor.mall.exception.GlobalExceptionHandler.handleException(GlobalExceptionHandler.java:35) - Default Exception: org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.arbor.mall.common.ApiRestResponse com.arbor.mall.controller.ProductController.list(com.arbor.mall.model.request.ProductListReq)
+[23:40:38:764] [ERROR] - com.arbor.mall.exception.GlobalExceptionHandler.handleException(GlobalExceptionHandler.java:35) - Default Exception: org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.arbor.mall.common.ApiRestResponse com.arbor.mall.controller.ProductController.list(com.arbor.mall.model.request.ProductListReq)
+[23:41:55:939] [ERROR] - com.arbor.mall.exception.GlobalExceptionHandler.handleException(GlobalExceptionHandler.java:35) - Default Exception: org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.arbor.mall.common.ApiRestResponse com.arbor.mall.controller.ProductController.list(com.arbor.mall.model.request.ProductListReq)
+[23:42:43:342] [ERROR] - com.arbor.mall.exception.GlobalExceptionHandler.handleException(GlobalExceptionHandler.java:35) - Default Exception: org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.arbor.mall.common.ApiRestResponse com.arbor.mall.controller.ProductController.list(com.arbor.mall.model.request.ProductListReq)
+[23:43:29:159] [ERROR] - com.arbor.mall.exception.GlobalExceptionHandler.handleException(GlobalExceptionHandler.java:35) - Default Exception: org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.arbor.mall.common.ApiRestResponse com.arbor.mall.controller.ProductController.list(com.arbor.mall.model.request.ProductListReq)
+[23:44:51:420] [ERROR] - com.arbor.mall.exception.GlobalExceptionHandler.handleException(GlobalExceptionHandler.java:35) - Default Exception: org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.arbor.mall.common.ApiRestResponse com.arbor.mall.controller.ProductController.list(com.arbor.mall.model.request.ProductListReq)
+[23:45:31:296] [ERROR] - com.arbor.mall.exception.GlobalExceptionHandler.handleException(GlobalExceptionHandler.java:35) - Default Exception: org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.arbor.mall.common.ApiRestResponse com.arbor.mall.controller.ProductController.list(com.arbor.mall.model.request.ProductListReq)
+[23:52:59:825] [ERROR] - com.arbor.mall.exception.GlobalExceptionHandler.handleException(GlobalExceptionHandler.java:35) - Default Exception: org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost:6379
+[23:54:22:120] [ERROR] - com.arbor.mall.exception.GlobalExceptionHandler.handleException(GlobalExceptionHandler.java:35) - Default Exception: org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost:6379

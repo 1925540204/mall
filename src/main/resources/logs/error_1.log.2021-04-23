@@ -1,0 +1,18 @@
+[13:35:21:051] [ERROR] - org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter.report(LoggingFailureAnalysisReporter.java:40) - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'adminFilterConf', defined in class path resource [com/arbor/mall/config/UserFilterConfig.class], could not be registered. A bean with that name has already been defined in class path resource [com/arbor/mall/config/AdminFilterConfig.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+[15:33:18:310] [ERROR] - com.arbor.mall.exception.GlobalExceptionHandler.handleException(GlobalExceptionHandler.java:35) - Default Exception: org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported
+[15:33:24:171] [ERROR] - com.arbor.mall.exception.GlobalExceptionHandler.handleException(GlobalExceptionHandler.java:35) - Default Exception: org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported
+[15:56:23:162] [ERROR] - com.arbor.mall.exception.GlobalExceptionHandler.handleException(GlobalExceptionHandler.java:35) - Default Exception: org.springframework.web.bind.MissingServletRequestParameterException: Required Integer parameter 'count' is not present
+[17:08:07:050] [ERROR] - com.arbor.mall.exception.GlobalExceptionHandler.handleArborMallException(GlobalExceptionHandler.java:47) - ArborMallException: com.arbor.mall.exception.ArborMallException: 更新失败
